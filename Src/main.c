@@ -107,7 +107,7 @@ int main(void) {
 	fram_init();
 #endif
 
-	oprintf("\n\n-----------------------\Startup ready\n");
+	oprintf("\n\n-----------------------Startup ready\n");
 	/* USER CODE END 2 */
 
 	/* Infinite loop */
