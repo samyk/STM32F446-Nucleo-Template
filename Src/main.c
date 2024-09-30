@@ -119,7 +119,7 @@ int main(void) {
 
 		/* USER CODE BEGIN 3 */
 		ii++;
-		HAL_Delay(1000);
+		HAL_Delay(blinkDelay);
 		//float cfreq = bldc_get_current_frequency();
 		HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, SET);
 		oprintf("Default MSG %d\n", ii);
